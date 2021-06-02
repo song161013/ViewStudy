@@ -48,6 +48,10 @@
         </service>
 
         <activity android:name="com.android.accessibility.AccessibilityActivity">
+
+        </activity>
+
+        <activity android:name="com.event.ActivityEvent">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
