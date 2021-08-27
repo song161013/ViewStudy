@@ -5,7 +5,7 @@ android {
     buildToolsVersion "29.0.3"
     defaultConfig {
         applicationId "com.view"
-        minSdkVersion 24
+        minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -32,4 +32,8 @@ dependencies {
 
     //悬浮窗： https://github.com/getActivity/XToast
     implementation 'com.hjq:xtoast:6.9'
+
+    //viewpage2
+    implementation "com.google.android.material:material:1.2.1"
+
 }
