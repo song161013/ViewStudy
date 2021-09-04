@@ -1,2 +1,2 @@
-include ':app',  ':wechatpaylib', ':ipcdemo'
+include ':app', ':ipcdemo', ':fragmentdemo'
 rootProject.name='ViewStudy'
